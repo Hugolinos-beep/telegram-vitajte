@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "telegram-vitajte"
+version = "0.1.0"
+description = "Telegram bot na privítanie nových členov"
+authors = ["Tvoj Bot"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+python-telegram-bot = "20.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
